@@ -17,7 +17,8 @@ Get the latest code from this repo
 - Using Visual Studio Code open the folder LangChainSamples
 - In the Terminal open a new Terminal using Command Prompt
 - Create a new virtual environment
-  	conda create -p myenv python=3.10 -y
+  ```python
+ 	conda create -p myenv python=3.10 -y
 
 - Activate the virtual environment
 	```python
@@ -36,9 +37,7 @@ Get the latest code from this repo
 - Run the code from the Terminal (Command Prompt)
   ```python
   streamlit run 1-OpenAISearch.py
-  ```
 - You can enter any topic or question and the OpenAI will try to answer it for you
 - Once you successfully run the first file you can run the other files as well. For example:
   ```python
   streamlit run 2-Singleprompt.py
-  ```
